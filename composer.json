@@ -12,18 +12,11 @@
             "role": "Developer"
         }
     ],
-"minimum-stability": "dev",
     "require" : {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
 "rybinden/translate" : "dev-master"
     },
-"repositories": [
-    {
-        "type": "vcs",
-"url": "https://github.com/rybinden/yii2-select-slug"
-}
-],
     "autoload": {
         "psr-4": {
             "rybinden\\selectslug\\": ""
