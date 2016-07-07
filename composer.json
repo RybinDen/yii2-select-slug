@@ -15,7 +15,7 @@
     "require" : {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-"rybinden/translate" : "*"
+"rybinden/yii2-translate" : "*"
     },
     "autoload": {
         "psr-4": {
