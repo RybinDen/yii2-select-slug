@@ -1,0 +1,32 @@
+{
+    "name": "rybinden/yii2-select-slug",
+    "description": "widget Yii2 for select slug.",
+    "keywords": ["yii", "extension", "widget", "select","slug"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rybin Denis",
+            "email": "mejdugorka@yandex.ru",
+            "homepage": "http://rybinden.ru",
+            "role": "Developer"
+        }
+    ],
+"minimum-stability": "dev",
+    "require" : {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+"rybinden/translate" : "dev-master"
+    },
+"repositories": [
+    {
+        "type": "vcs",
+"url": "https://github.com/rybinden/yii2-select-slug"
+}
+],
+    "autoload": {
+        "psr-4": {
+            "rybinden\\selectslug\\": ""
+    }
+    }
+}
