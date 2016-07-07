@@ -12,10 +12,11 @@
             "role": "Developer"
         }
     ],
+"minimum-stability": "dev",
     "require" : {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-"rybinden/translate" : "dev-master"
+"rybinden/translate" : "*"
     },
     "autoload": {
         "psr-4": {
