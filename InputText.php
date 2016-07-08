@@ -10,8 +10,11 @@ public $titleAttribute;
 public $slugAttribute;
 
     public function run(){
+echo Html::activeLabel($this->model, $this->titleAttribute);
 echo Html::activeTextInput($this->model, $this->titleAttribute, ['id'=>'title-input', 'maxlength' => 64]);
+
 echo '<div id="slug-block">';
+echo Html::activeLabel($this->model, $this->slugAttribute);
 echo Html::activeTextInput($this->model, $this->slugAttribute, ['id'=>'slug-input', 'value'=>'', 'maxlength' => 64]);
 echo '
 <div id="results"></div>
